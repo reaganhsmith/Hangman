@@ -34,6 +34,13 @@ I chose to do Hangman because of the different tools you can use in c++ to creat
 - [C++ history](https://en.wikipedia.org/wiki/C%2B%2B)
 - [W3schools](https://www.w3schools.com/cpp/)
 - [cPlusPlus](https://cplusplus.com/reference/stl/)
+- [Microsoft Expression](https://learn.microsoft.com/en-us/cpp/cpp/expressions-cpp?view=msvc-170)
+- [Loops W3Schools](https://www.w3schools.com/cpp/cpp_for_loop.asp)
+- [Classes W3Schools](https://www.w3schools.com/cpp/cpp_classes.asp)
+- [Classes Geeks4Geeks](https://www.geeksforgeeks.org/c-classes-and-objects/)
+- [Vectors Geeks4Geeks](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+- [Prgramiz C++](https://www.programiz.com/cpp-programming/vectors)
+
 
 # Future Work
 
