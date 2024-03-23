@@ -22,32 +22,32 @@ public:
 
     // Get suprise word from word.txt file
     void getWord(const string &filename)
+{
+    // Opens the file called words.txt and adds it to a list to pick a word from
+    // STRETCH myself! This picks a random word from a words text file.
+    ifstream inFile(filename);
+    if (!inFile)
     {
-        // Opens the file called words.txt and adds it to a list to pick a word from
-        // STRETCH myself! This picks a random word from a words text file.
-        ifstream inFile(filename);
-        if (!inFile)
-        {
-            cerr << "Error: undable to open words.txt" << endl;
-            exit(1);
-        }
-
-        // Adds the files to a string list to them be randomly selected
-        vector<string> words;
-        string line;
-        while (getline(inFile, line))
-        {
-            words.push_back(line);
-        }
-
-        inFile.close();
-
-        if (words.empty())
-        {
-            cerr << "Error: No words found in the file" << endl;
-            exit(1);
-        }
+        cerr << "Error: unable to open words.txt" << endl;
+        exit(1);
     }
+
+    // Adds the files to a string list to them be randomly selected
+    string line;
+    while (getline(inFile, line))
+    {
+        words.push_back(line); // Now, it populates the class member vector.
+    }
+
+    inFile.close();
+
+    if (words.empty())
+    {
+        cerr << "Error: No words found in the file" << endl;
+        exit(1);
+    }
+}
+
 
     void selectWord()
     {
